@@ -1,0 +1,5 @@
+const FETCH_PRODUCTS = "FETCH_PRODUCTS";
+
+export {
+    FETCH_PRODUCTS
+}
