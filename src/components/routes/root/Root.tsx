@@ -1,6 +1,11 @@
 import React from "react";
-import PersistentDrawerLeft from "../../navigation/Menu";
+import {Container} from "@mui/material";
+
 
 export default function Root() {
-    return <PersistentDrawerLeft />
+    return (
+        <Container maxWidth={'md'}>
+            <p>Root</p>
+        </Container>
+    )
 }
