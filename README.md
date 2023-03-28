@@ -1,3 +1,14 @@
+TODO:
+need to check after all also in "run build" mode;
+need to write some tests with Jest or Jasmine;
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

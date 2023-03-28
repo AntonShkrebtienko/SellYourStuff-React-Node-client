@@ -26,24 +26,6 @@ import {Link} from "react-router-dom"
 
 const drawerWidth = 240;
 
-// const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
-//     open?: boolean;
-// }>(({ theme, open }) => ({
-//     flexGrow: 1,
-//     padding: theme.spacing(3),
-//     transition: theme.transitions.create('margin', {
-//         easing: theme.transitions.easing.sharp,
-//         duration: theme.transitions.duration.leavingScreen,
-//     }),
-//     marginLeft: `-${drawerWidth}px`,
-//     ...(open && {
-//         transition: theme.transitions.create('margin', {
-//             easing: theme.transitions.easing.easeOut,
-//             duration: theme.transitions.duration.enteringScreen,
-//         }),
-//         marginLeft: 0,
-//     }),
-// }));
 
 interface AppBarProps extends MuiAppBarProps {
     open?: boolean;
@@ -105,7 +87,7 @@ export default function PersistentDrawerLeft() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h6" noWrap component={Link} to={'/'} >
+                    <Typography variant="h6" noWrap component={Link} to={'/'} className={'logo-title'} >
                         Sell Your Stuff
                     </Typography>
                 </Toolbar>

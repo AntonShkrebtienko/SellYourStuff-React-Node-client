@@ -3,6 +3,9 @@ h1.title {
     font-size: 3rem;
     text-align: center;
 }
+.logo-title {
+    color: #FFF;
+}
 
 a {
     text-decoration: none;

@@ -1,8 +1,7 @@
 import * as actionTypes from "./actionTypes"
 
 const initialState: any = {
-    albums: [],
-    searchParam: ''
+    products: [],
 }
 
 const reducer = (
