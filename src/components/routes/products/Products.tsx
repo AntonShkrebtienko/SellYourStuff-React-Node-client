@@ -1,10 +1,12 @@
 import * as React from 'react'
 import {Container, Stack} from "@mui/material";
 import Typography from "@mui/material/Typography";
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Card from './Card'
 import {useEffect, useState} from "react";
 import {IProductsState, Product} from "./CardTypes";
 import axios from "axios";
+
 
 const initialState = {
     id: 1,
